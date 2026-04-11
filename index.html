@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Snakes and Ladders - WebGL</title>
+  <style>
+    canvas { border: 1px solid black; }
+    button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+    <div id="gameContainer" style="position: relative; width: 500px; height: 500px;">
+        <canvas id="gameCanvas" width="500" height="500" style="position: absolute; left: 0; top: 0;"></canvas>
+        <div id="numberLayer" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: none;"></div>
+      </div>
+      <div id="diceResult"></div>
+      <button onclick="rollDice()">Roll Dice</button>
+      
+ 
+  <script src="game.js"></script>
+</body>
+</html>
